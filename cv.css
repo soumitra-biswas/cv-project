@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(191, 227, 71);
+    font-family: "Anta", sans-serif;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(170, 206, 222);
+    padding: 20px;
+}
+
+header {}
+
+.contact {
+    float: right;
+    padding: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    columns: teal;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+
+}
+
+.profile {
+    width: 100px;
+    height: 120px;
+    border: 3px solid black;
+    border-radius: 50%;
+    float: left;
+}
+
+.profile :hover {
+    width: fit-content;
+    height: 100%;
+
+}
+
+.header-bio {
+    float: left;
+    padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(136, 6, 250);
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*personal-section start*/
+#personal-section {}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+}
+
+.right-div {
+    width: 70%;
+    float: left;
+
+}
+
+.right-div1 {
+    width: 45%;
+    float: left
+}
+
+.right-div2 {
+    width: 45%;
+    float: left
+}
+
+.common-hr {
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+/*personal-section End*/
+/*work experience start*/
+/*
+#work-exp{
+}
+#key-skills{}
+
+#honors-awards{}
+
+#references{}
+*/
+
+.buttom {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.buttom a {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.buttom a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
